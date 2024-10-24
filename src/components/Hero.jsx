@@ -22,6 +22,12 @@ const Hero = () => {
       </div>
 
       <Dancer/>
+
+      <div className='absolute xs:bottom-10 bottom-0 w-full flex justify-center items-center'>
+        <a href="#about">
+        </a>
+      </div>
+
     </section>
   )
 }

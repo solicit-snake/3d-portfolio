@@ -52,6 +52,10 @@
   );
 }
 
+.loading-div{
+  margin-top: 100px;
+}
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
@@ -125,6 +129,7 @@
 
 /* canvas- styles */
 .canvas-loader {
+  margin-top: 200px;
   font-size: 10px;
   width: 1em;
   height: 1em;

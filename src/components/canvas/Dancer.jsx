@@ -35,8 +35,8 @@ const Dancer = () => {
     <group>
       <mesh>
         <ambientLight 
-          intensity={0.2} 
-          color={'yellow'}
+          intensity={0.3} 
+          color={'white'}
         />
         <directionalLight
           position = { [0, 5, 0] }
@@ -47,7 +47,7 @@ const Dancer = () => {
           position={[0, 0, 2]} // Positioned above the model for a downward light
           intensity={2} // Adjust intensity as needed
           decay={2} // Makes light decrease in intensity over distance 
-          color={'yellow'}
+          color={'#cab21e'}
 
         />
         <primitive
