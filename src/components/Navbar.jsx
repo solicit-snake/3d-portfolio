@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <i className="fa-solid fa-house home-logo mb-[3px] mr-2"/>
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Kyle</p>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex"></p>
 
         </Link>
         
@@ -32,7 +32,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li 
               key={link.id} 
-              className={`${ active === link.title ? "text-white" : "text-secondary" } hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${ active === link.title ? "text-[#cab21e]" : "text-secondary" } hover:text-[#cab21e] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}> {link.title}</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li 
                   key={link.id} 
-                  className={`${ active === link.title ? "text-white" : "text-secondary" } font-poppins font-medium cursor-pointer text-[16px]`}
+                  className={`${ active === link.title ? "text-[#cab21e]" : "text-secondary" } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setActive(link.title)
                     setToggle(!toggle)
