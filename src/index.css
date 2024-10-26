@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+.threedsection{
+    touch-action: auto !important;
+}
+
 .home-logo{
   color: white;
   font-size: 20px;
@@ -126,6 +130,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 /* canvas- styles */
 .canvas-loader {
