@@ -6,7 +6,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto normal-bg-element">
+    <section className="relative w-full h-screen mx-auto normal-bg-element" style={{touchAction: 'none'}}>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#cab21e]"/>
