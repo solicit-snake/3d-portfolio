@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    soundboardreactapp,
+    nasaapp,
+    todoapp,
   } from "../assets";
   
   export const navLinks = [
@@ -33,11 +36,7 @@ import {
     {
       id: "work",
       title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -190,9 +189,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Random Audio Search",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A website I made for myself to search for audio samples from an API. every search yields random results so you'll never see the same vocal samples",
       tags: [
         {
           name: "react",
@@ -207,13 +206,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: soundboardreactapp,
+      source_code_link: "https://github.com/solicit-snake/sound-board-react-app",
+      website_link: "https://sound-board-react-app.vercel.app"
     },
     {
-      name: "Job IT",
+      name: "Todo List",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Simple but useful todo list that saves on page refresh",
       tags: [
         {
           name: "react",
@@ -228,13 +228,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: todoapp,
+      source_code_link: "https://github.com/solicit-snake/reactjs-todolist",
+      website_link: "https://reactjs-todolist-lilac.vercel.app/"
     },
     {
-      name: "Trip Guide",
+      name: "NASA Photo of the Day",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Uses NASA's API to get the photo of the day along with information about it",
       tags: [
         {
           name: "nextjs",
@@ -249,8 +250,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: nasaapp,
+      source_code_link: "https://github.com/solicit-snake/nasa-react-app",
+      website_link: "https://nasa-react-app-beryl.vercel.app"
     },
   ];
   
