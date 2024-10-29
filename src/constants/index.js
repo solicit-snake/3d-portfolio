@@ -26,6 +26,7 @@ import {
     soundboardreactapp,
     nasaapp,
     todoapp,
+    caffiend
   } from "../assets";
   
   export const navLinks = [
@@ -191,7 +192,7 @@ import {
     {
       name: "Random Audio Search",
       description:
-        "A website I made for myself to search for audio samples from an API. every search yields random results so you'll never see the same vocal samples",
+        "A simple react website that uses an API to get audio samples based of a search query. Each query yields random results.",
       tags: [
         {
           name: "react",
@@ -211,9 +212,31 @@ import {
       website_link: "https://sound-board-react-app.vercel.app"
     },
     {
+      name: "Caffiend",
+      description:
+        "A full stack application using react/firebase to track a users coffee intake and caffeine levels",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: caffiend,
+      source_code_link: "https://github.com/solicit-snake/caffiend",
+      website_link: "https://caffiend-opal.vercel.app/"
+    },
+    {
       name: "Todo List",
       description:
-        "Simple but useful todo list that saves on page refresh",
+        "Simple but useful todo list that saves on page refresh. Made with react.",
       tags: [
         {
           name: "react",
@@ -235,7 +258,7 @@ import {
     {
       name: "NASA Photo of the Day",
       description:
-        "Uses NASA's API to get the photo of the day along with information about it",
+        "Uses NASA's API to get the photo of the day along with information about it. Made with react.",
       tags: [
         {
           name: "nextjs",

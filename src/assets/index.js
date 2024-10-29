@@ -34,6 +34,7 @@ import tripguide from "./tripguide.png";
 import soundboardreactapp from "./soundboardapp.png"
 import nasaapp from './nasaapp.png'
 import todoapp from './todoapp.png'
+import caffiend from './caffiend.png'
 
 export {
   logo,
@@ -67,5 +68,6 @@ export {
   tripguide,
   soundboardreactapp,
   nasaapp,
-  todoapp
+  todoapp,
+  caffiend
 };
